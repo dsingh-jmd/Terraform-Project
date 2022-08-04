@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
    count= "1"
    subnet_id = "subnet-0d47c7cc17ec8f644"
    tags= {
-    Name= "Deepak-TerraformWebServer"
+    Name=  "Deepak-TerraformWebServer"
    }
 
 }
